@@ -197,6 +197,8 @@ Users can explore the Teacha website using search keywords to find people or men
 
 ![Screen Shot 2020-08-13 at 11 56 18 AM](https://user-images.githubusercontent.com/52684850/90176081-4a82bb00-dd5d-11ea-92bd-1d26bfe51603.png)
 
+---------
+
 ![Screen Shot 2020-08-13 at 11 56 47 AM](https://user-images.githubusercontent.com/52684850/90176155-625a3f00-dd5d-11ea-9936-d5f6f10881db.png)
 
 ### Mentoring Circle Page: 
