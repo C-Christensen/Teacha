@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "views": "10",
+      "category": "javascript"
+    },
+    {
+      "id": "2",
+      "title": "test",
+      "author": "Test User",
+      "views": "1"
+    },
+    {
+      "id": "100",
+      "title": "test2",
+      "author": "Random user"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "id": "9",
+    "firstName": "Abdul lastName",
+    "lastName": "Don't know",
+    "email": "abdul@gmail.com",
+    "age": 22,
+    "companyId": "2"
+  }
+}
