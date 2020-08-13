@@ -1,0 +1,70 @@
+.explore-wrapper {
+    padding: 1em;
+    width: 70%;
+    margin: 1% 15%;
+}
+
+
+.sort-checkbox-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-wrapper {
+    width: 45%;
+}
+
+
+div.explore-bar {
+    padding: .5em;
+}
+
+form.explore-bar input[type=text] {
+    padding: .5em;
+    font-size: 1.2em;
+    border: 1px solid #000000;
+    width: 80%;
+    height: 2.3em;
+    background: #FFFFFF;
+  } 
+
+input[type=text]:focus {
+    width: 100%;
+  }
+
+img.magnifying-glass-explore {
+    /* Relatively positioned folowing the flow of the input element  */
+    position: relative; 
+    margin-left: 75%;
+    top: -2.7em;
+    max-width: 2.3em;
+    min-width: 2em;
+}
+
+.button {
+    width: 20%;
+}
+  
+form.explore-bar {
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  input[type=text]:hover {
+    border: 2px solid purple;
+  }
+  
+form.explore-bar button:hover {
+    background: #F9A826;
+  }
+  
+form.explore-bar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

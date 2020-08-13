@@ -1,0 +1,30 @@
+.act-wrapper {
+    border: .1em #000000 solid;
+    border-radius: 3px;
+    width: 25.5em;
+    margin: .8em .4em;
+    background-color:  #FFFFFF;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    box-shadow: 5px 5px #888888;
+}
+
+.act-title{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: .9em;
+    color: #131212;
+}
+
+.act-description{
+    font-size: 1.1em;
+    font-weight: bold;
+    color:#8378DE;
+}
+
+.activity-image {
+    width: 3em;
+    padding: 1em 1em;
+}
+

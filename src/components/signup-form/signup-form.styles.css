@@ -1,0 +1,23 @@
+
+.signup-input {
+    margin: 1em;
+    width: 80%;
+}
+
+.error-message {
+    font-size: .9em;
+    color: #FF4136;
+}
+
+.signup-button {
+    background-color:#8378DE;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    margin: 1.5em;
+    cursor: pointer; 
+    font-size: 20px;
+    padding: 15px 50px;
+}

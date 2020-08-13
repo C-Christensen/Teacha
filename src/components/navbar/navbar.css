@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    box-sizing: border-box; 
+    
+}
+.wrapper {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    background-color:#F9A826;
+}
+
+.navbar {
+    display: flex;
+    flex-direction:row;
+    margin-left: auto;
+    
+    background: #F9A826;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold; 
+
+    background-color: #F9A826;
+}
+
+.logo {
+    width:94px;
+    height:90px;
+}
+
+.navbar-item {
+    font-size: medium;
+    padding: 16px;
+    cursor: pointer;
+
+    
+}
+
+.navbar-item:hover {
+    background-color: #663399;
+}
+
+.link {
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+}

@@ -1,0 +1,21 @@
+div.container {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+  }
+
+select {
+    float: left;
+    width: 45%;
+    font-size: 1em;
+    padding: .5em 1em;
+    margin: .8em 0;
+    display: block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+.sort{
+    float: left;
+    padding: 1em;
+    margin-left: 1em;
+}

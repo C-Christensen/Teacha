@@ -1,0 +1,25 @@
+.stat-wrapper {
+  max-width: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.stat-icon {
+  width: 225px;
+  height: 225px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.stat-title {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.stat-info {
+  font-size: 18px;
+  font-weight: bold;
+  color: #939498;
+}

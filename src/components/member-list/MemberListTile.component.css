@@ -1,0 +1,79 @@
+.memberlist-wrapper {
+    padding: .5em 3em;
+    width: 27em;
+
+}
+
+.memberlist{
+    width: 95%;
+    height: 300px;
+    overflow-y: scroll;
+    border: .1em #000000 solid;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  
+  .memberlist::-webkit-scrollbar {
+      margin-left: 5px;
+      width: 10px;
+  }
+  
+  .memberlist::-webkit-scrollbar * {
+    background: transparent;
+  }
+  
+  .memberlist::-webkit-scrollbar-thumb {
+    background: #F9A826;
+    margin-left: 5px;
+    width: 10px;
+    border-radius: 5px;
+  }
+
+.memberlist-title {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    background-color: #F9A826;
+    padding: .1em;
+    padding-left: 1em;
+    margin-bottom: .6em;
+    box-shadow: 5px 5px #888888;
+    border-radius: 10px;
+}
+.List{
+    display:flex;
+    flex-direction:column;
+    justify-content: left;
+    flex-wrap:wrap;
+    list-style-type: none;
+    width:150px;
+    padding-inline-start: 10px;
+}
+
+
+.member{
+    display:flex;
+    justify-content: left;
+    padding:.1em 4em;
+    align-items: center;
+
+}
+
+.member-name{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+}
+
+.member-role{
+    font-size:1.3em;
+}
+
+.Member-info{
+    display:flex;
+    align-items:center;
+}
+
+.user-image{
+    width: 70px;
+    height: 70px;
+}
