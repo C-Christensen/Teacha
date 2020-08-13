@@ -1,0 +1,24 @@
+/* Heading style */
+.explore-heading-wrapper{    
+    width: 100%;
+    background-color: #F9A826;   
+}
+
+.explore-heading-left {
+    float: left;
+    width: 60%;
+    margin: 1.5em .5em;
+    font-size: 3em;  
+    color: #FFFFFF;  
+}
+
+.explore-heading-right {
+    max-width: 18%;
+    margin-bottom: 2em;
+    margin-right: 7em;
+}
+
+.explore-heading3 {
+    text-align: center;
+    font-size: 1.5em;
+}

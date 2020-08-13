@@ -1,0 +1,116 @@
+
+.signup-wrapper {
+    height: 100%;
+    position: fixed;
+    background-color: #F9A826; 
+    padding: 10% 5%;
+    
+}
+
+/* Left side style */
+.signup-left-side {
+    float: left;
+    width: 38%;
+    margin-left: 5%;
+    
+}
+
+.signup-heading1 {
+    font-size: 3.5em;
+    color: #FFFFFF;
+    /* margin: 1em .5em; */
+}
+
+.signup-heading2 {
+    color: #000000;
+    font-size: 1.7em;
+    /* margin: 1em .5em; */
+}
+
+.signup-logo {
+    width: 70%;
+}
+
+/* Right side style */
+.signup-right-side {
+    float: left;
+    width: 37%;
+    padding: 1em;
+    margin-left: 15%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+.signup-form {
+    margin: 1em;
+}
+
+.button {
+    padding: .5em 2.5em;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 1em;
+}
+
+.signup-button {
+    margin: 3.5em;
+    margin-left: 9em;
+}
+
+.signin {
+    font-size: .9em;
+    float: right;
+}
+
+@media only screen and (max-width: 1035px) {
+     /* For tablets: */
+    .signup-wrapper {
+        flex-direction: column;
+        background-image: none;
+        
+    }
+    .signup-right-side {
+        width: 100%;
+        padding: .4em;
+        margin: 1em;
+    }
+
+    .signup-logo {
+        width: 25%;
+    }
+    
+    .signup-left-side {
+        background-image: url(../../assets/responsive-background.png);
+        width: 100%;
+        margin: 0em;
+        align-items: stretch;
+    }
+    .signin {
+        margin-right: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+    .signup-wrapper {
+        background-image: none;
+    }
+    .signup-right-side {
+        width: 100%;
+    }
+
+    .signup-logo {
+        width: 50%;
+    }
+    
+    .signup-left-side {
+
+        width: 100%;
+    }
+    .signin {
+        margin-right: .5em;
+    }
+
+}

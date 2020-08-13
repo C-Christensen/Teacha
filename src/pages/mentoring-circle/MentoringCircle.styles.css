@@ -1,0 +1,139 @@
+.body-wrapper{
+    flex-wrap: wrap;
+    display:flex; 
+    justify-content: center;
+    flex-direction:row; 
+    /* box-sizing: border-box; */
+    margin-left:10px;
+    
+}
+.left-side{
+    margin-left: 10px;
+    margin-right: 5px;
+    /* display:flex; */
+    flex-direction: column;
+    justify-content: center;
+    flex: 3;
+    margin-top:10px;
+    padding:0px;
+    /* border: .1em #000000 solid;
+    border-radius: 3px;
+    box-shadow: 5px 5px #888888; */
+}
+
+.right-side {
+   margin-left: 50px;
+   width: 70%;
+   flex-direction: row;
+   display: flex;
+   flex:1;
+    /* height: 120px; */
+    /* margin-right:50px; */
+}
+
+.event-calendar-wrapper{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    flex:3;
+    /* left: 120px; */
+    /* justify-content: relative; */
+}
+
+
+.Calendar{
+    flex:1;
+    padding:10px;
+}
+
+.Activity{
+    flex:2;
+    padding:10px;
+    height: 700px;
+}
+
+.SeattleSchoolLogo{
+    width: 700px;
+    height:225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Seattle-statement{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: impact;
+    color:#2817be;
+    font-size: 1.3em;
+}
+
+.DiverseClassroom{
+    padding-top: 8px;
+    width:700px;
+    height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.circle-info{
+        margin-top: 15px;
+        font-size: 20px;
+        /* background-color: #a2a2a3; */
+        /* border-radius: 40px; */      
+}
+
+
+.circle-title{
+    text-transform: uppercase;
+    font-family: impact;
+    font-size: 2.1em;
+    font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    color:#17a9bd;
+    text-shadow: 1px 1px 1px#17a9bd,
+        1px 2px 1px rgb(218, 215, 215),
+        1px 3px 1px rgb(218, 215, 215),
+        1px 4px 1px rgb(218, 215, 215),
+        1px 5px 1px rgb(218, 215, 215),
+        1px 6px 1px rgb(218, 215, 215)
+}
+
+
+.circle-mission{
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+.bulletin-board{
+  width: 80%;
+  padding: 10px;
+  border: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.group-rules-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.group-rules{
+    text-decoration: underline;
+    font-family: impact;
+    color:#f92631;
+    font-size: 1.4em;
+}
+
+.rules{
+    display: block;
+    text-align: center;
+    font-size: .7em;
+    min-width: 20;
+}

@@ -1,0 +1,47 @@
+.section-four {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f6f8fb;
+  /* background-image: url(../../svgs/method-wave.svg);
+  background-repeat: no-repeat, repeat;
+  background-size: auto;
+  background-position: top; */
+}
+
+.method-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.method-info {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+
+  text-align: left;
+  margin: 75px;
+}
+
+.method-title {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.method-text {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #939498;
+  text-align: left;
+}
+
+.method-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+}
