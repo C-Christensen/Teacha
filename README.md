@@ -56,9 +56,11 @@ William is an African American teacher at a public middle school in California. 
 
 * Landing page, for first time users and users that are not logged in.  
 
+
 ##### 2) Dashboard (Main Page)   
 
 Homepage screen when users are successfully logged in that display's relevant information such as, profile section & mentor circles. 
+
 
 ###### Profile (Left of the page) 
 
@@ -177,74 +179,31 @@ Forum content (Left of the page)
 
 ## UI/UX DETAILED 
 
+![Screen Shot 2020-08-13 at 11 55 25 AM](https://user-images.githubusercontent.com/52684850/90175893-fd9ee480-dd5c-11ea-8cd6-91c67df33527.png)
+
+
 ### Sign-up/Sign-in Page: 
 When the user navigates to Teacha, they will land on the sign in or sign up page. If the user has already signed up, they will land directly on the dashboard page. Authentication is handled through email confirmation. 
 
-![Screen Shot 2020-07-28 at 11 29 49 PM](https://user-images.githubusercontent.com/52684850/88764935-a0831c00-d12a-11ea-8ba7-dea37d871222.png)
+![Screen Shot 2020-08-13 at 11 55 37 AM](https://user-images.githubusercontent.com/52684850/90175924-0abbd380-dd5d-11ea-8132-f4e364e60cea.png)
 
 ### Dashboard: 
 This page is where the user will be directed as the “home page.” Upon signing up and signing in they will land on this page. From here the user can visualize their profile that contains information such as education and the amount of experience they have in the teaching industry. The navigation bar at the top allows for the user to be redirected to either the dashboard, mentoring circle or the search page. On the right side of the page, the mentoring circles that the user is a part of are displayed and the user can click on each group to navigate to that circle. The user can also add a new mentoring circle by clicking on the last circle on the bottom right.  
 
-![Screen Shot 2020-07-28 at 11 29 56 PM](https://user-images.githubusercontent.com/52684850/88764906-93662d00-d12a-11ea-8301-87c02a0e9018.png)
+![Screen Shot 2020-08-13 at 11 55 58 AM](https://user-images.githubusercontent.com/52684850/90175952-17402c00-dd5d-11ea-9ab4-b6001d810c92.png)
 
 ### Explore (Search) Page: 
 Users can explore the Teacha website using search keywords to find people or mentoring circles using the “Explore” button on the nav bar or “add new mentoring circle”. Users have the option to filter their search results based on their needs. *For example, upon searching keyword “Seattle”, user can filter results by showing only results for mentoring circle. Then, from the search results, they can click to go to the mentoring circle of their choice to be redirected to that specific mentoring circle page. 
 
-![Screen Shot 2020-07-28 at 11 30 03 PM](https://user-images.githubusercontent.com/52684850/88764880-88ab9800-d12a-11ea-9b55-7cb9beb9372b.png)
+![Screen Shot 2020-08-13 at 11 56 18 AM](https://user-images.githubusercontent.com/52684850/90176081-4a82bb00-dd5d-11ea-92bd-1d26bfe51603.png)
+
+![Screen Shot 2020-08-13 at 11 56 47 AM](https://user-images.githubusercontent.com/52684850/90176155-625a3f00-dd5d-11ea-9936-d5f6f10881db.png)
 
 ### Mentoring Circle Page: 
 This page allows users to join specific groups that align with their interests by clicking on the “Join Group”. Upon joining their name will show up under Circle Members and the Join Group button will not be displayed anymore. As a member of the mentoring circle, they will have access to upcoming events by looking at the calendar where they will be a link to the conference room and be able to acquire all the resources available in the circle by “Recent Activity” tab. 
 
-![Screen Shot 2020-07-28 at 11 30 10 PM](https://user-images.githubusercontent.com/52684850/88764839-7b8ea900-d12a-11ea-9acd-a60b581afd4b.png)
+![Screen Shot 2020-08-13 at 11 56 36 AM](https://user-images.githubusercontent.com/52684850/90176113-55d5e680-dd5d-11ea-9782-d003c088ca5a.png)
 
-## TEACHA WEBSITE OVERVIEW
-
-<img width="1090" alt="Screen Shot 2020-07-20 at 12 54 04 PM" src="https://user-images.githubusercontent.com/52684850/88764496-e8557380-d129-11ea-9507-a6244748430f.png">
-
-## BREAKDOWN OF WORK (PROTOTYPE ENG) 
-
-##### Teamwork Outline: 
-
-1) Create the project inside our repo on GitHub. 
-
-2) Create the main files/folders needed for the project such as CSS, components, assets. 
-
-3) Make sure every member of the team has an updated repo before we start coding. 
-
-4) Process: Build reusable component -> pair up with a partner and work on each page -> CSS styling. 
-
-##### Component: 
-
-Text Input: Abdul 
-
-Button: Abdul 
-
-Nav Bar: Mo 
-
-Mentoring Circle Cards for the Dashboard and Explore(search) page: Ivan 
-
-List of users in the mentoring circle: Rina 
-
-Table/Flexbox for upcoming events: Camila 
-
-* recent activity item 
-
-
-##### Page:  
-
-Sign-up Page: Camila 
-
-Dashboard (two people): Mo and Ivan 
-
-Explore (Search) Page: Camila 
-
-Mentoring the Circle Page (two people): Rina and Abdul 
-
- 
-
-##### Mockup (Group): 
-
-* Pick a color theme. 
 
 ## METRICS/SUCCESS CRITIERIA (CUSTOMER SATISFACTION/ENGAGEMENT) 
 
@@ -347,14 +306,5 @@ Quantitative:
 
 ![Screen Shot 2020-07-28 at 11 30 21 PM](https://user-images.githubusercontent.com/52684850/88764771-64e85200-d12a-11ea-9031-45de388f8e86.png)
 
-### APPENDIX: 
 
-## USER INTERVIEWS 
 
-Jane, in Her 50's, has 24 years of teaching experience. 
-
-Jane is a 6th grade teacher at a public elementary school in the Miami School district. She spends most of her time trying to figure out new technology implemented by her school or preparing materials for her class.  In her classroom, she faces multiple challenges she doesn’t know how to solve such as: 1) Interacting with students that have emotional struggles, 2) Managing an overwhelming teaching schedule, 3) Finding resources to connect with other teachers, 4) Improving student to student communication 5) And finding good resources to supplement her teaching curriculum. Amy uses technology mainly to teach classes as all her student uses laptop to submit assignments. She copes with her mental stress by going for walks and meditating. She is eager to learn new technology to collaborate and connect with her students to improve both teacher and student success. 
-
-Robert, in his late 40’s, has 16 years of teaching experience. 
-
-Robert is a 2nd grade teacher at a public elementary school in Tacoma School district. He is very affectionate with his students. He focuses on kids' success and teaches them about the feeling of be loved and cared for rather than focusing on a child’s success by a letter or a number grade. He experienced hardship and went through a hard time when his student with a disability passed away 2 years go and he has trouble looking after himself when it comes to coping with emotional stress. Also, Robert’s school has recently hired a new principal who focuses on data-driven student results which conflicts with his teaching method. For professional development, he stays after school twice a week to collaborate with other teachers but at the same time he feels old, worried that he might be replaced because he is not most up to date on teaching methods. Robert is willing to help other teachers and explore new things with easy navigation because he is not too tech savvy.   
